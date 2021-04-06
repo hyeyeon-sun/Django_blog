@@ -1,0 +1,16 @@
+
+*.pyc
+*.pyd
+*.psl
+*.bat
+*.exe
+*.dll
+*~
+__pycache__
+myvenv
+db.sqlite3
+/static
+.DS_Store
+Activate.ps1
+activate
+django-admin.py
