@@ -14,7 +14,6 @@ from django.utils import timezone
 # 그럼 장고는 모델(객체)를 db에 저장한다 ! -> 장고의 특이한 부분
 
 
-
 class Post(models.Model):
     author = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE)
     title = models.CharField(max_length=200)
